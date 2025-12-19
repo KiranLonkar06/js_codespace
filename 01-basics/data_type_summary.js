@@ -30,3 +30,30 @@ const myFucntion= function(){
 }
 
 console.log(typeof out);
+
+// memory is off two types first is stack memory(Primitive) and another is heap memory (non primitive)
+
+
+// stack memory primitive
+// heap memory non primitive
+
+let myYoutubeName="kiran's coding style"
+
+let anotherName=myYoutubeName;
+
+console.log(anotherName);
+
+anotherName="Kiran Lonkar";
+
+console.log(myYoutubeName);
+console.log(anotherName)
+
+let userOne ={
+    email:"abc@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email="kiranlonkar4656@google.com";
+console.log(userOne.email);
+console.log(userTwo.email)
